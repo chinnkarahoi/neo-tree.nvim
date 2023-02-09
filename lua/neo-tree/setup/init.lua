@@ -90,7 +90,7 @@ local define_events = function()
   events.subscribe({
     event = events.VIM_RESIZED,
     handler = function()
-      require("neo-tree.ui.renderer").update_floating_window_layouts()
+      -- require("neo-tree.ui.renderer").update_floating_window_layouts()
     end,
   })
 end
